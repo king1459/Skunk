@@ -30,6 +30,9 @@ public class Player {
 	
 	public void loseChips(int loss){
 		this.chips=this.chips-loss;
+	}
+	
+	public void skunkReset(){
 		this.curTotal=this.gameTotal;
 	}
 	
